@@ -40,7 +40,7 @@ public class WindowFrame extends JFrame {
 		this.setSize(400,400);
 		this.setLocationRelativeTo(null); //centre la fenetre
 		this.setTitle(fcJosaphat.getName()+"Gestionnaire des Membre");
-		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 		this.setVisible(true);
 		
 	}
