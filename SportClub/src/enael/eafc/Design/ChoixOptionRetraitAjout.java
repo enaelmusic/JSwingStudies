@@ -46,6 +46,7 @@ public class ChoixOptionRetraitAjout {
 		centrePanAjout.add(naissanceL);
 		centrePanAjout.add(naissanceT);
 		centrePanAjout.add(confirmerAjout);
+		centrePanAjout.revalidate();
 		centrePanAjout.repaint(); //j'essaie de retirer le bug affichage fantome
 		confirmerAjout.addActionListener(new ActionListener() {
 			@Override

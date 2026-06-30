@@ -48,7 +48,7 @@ public class ConfPane {
 		 */
 		//completement arbitraire, si le choix est en vrai c'est qu'il voudra ajouter un membre.
 		if(choixAction) {
-			JOptionPane.showMessageDialog(null, "Ajouter un membre");
+//			JOptionPane.showMessageDialog(null, "Ajouter un membre");
 			rORa.configAjout(centrePan);		
 		}
 		//sinon il decide de faire un retrait

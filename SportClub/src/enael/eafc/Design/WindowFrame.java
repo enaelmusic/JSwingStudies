@@ -36,11 +36,13 @@ public class WindowFrame extends JFrame {
 	}
 	
 	private void wFInit() {
-		addCarte();
-		this.setSize(400,400);
+		this.setTitle(fcJosaphat.getName()+"Gestionnaire des Membres");
+		this.setSize(800,400);
 		this.setLocationRelativeTo(null); //centre la fenetre
-		this.setTitle(fcJosaphat.getName()+"Gestionnaire des Membre");
 		this.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
+		addCarte();
+		this.revalidate();
+		this.repaint();
 		this.setVisible(true);
 		
 	}
